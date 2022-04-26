@@ -101,7 +101,7 @@ It then uses FTP to upload them to the SRA.
 You can run the notebook interactively, but it will take a little while so make sure it doesn't time out.
 If you want to instead submit it via `slurm`, do this with:
 
-    sbatch --wrap="jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=-1 upload_to_SRA.ipynb" --time 2-0
+    sbatch --wrap="jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=-1 make_and_upload_tar.ipynb" --time 2-0
 
 After you have finished running [make_and_upload_tar.ipynb](make_and_upload_tar.ipynb), check carefully to make sure the FTP upload was completed.
 If needed, you can manually log into the FTP site to see the file and use `ls` to see the size of what has been transferred.
