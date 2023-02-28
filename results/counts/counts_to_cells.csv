@@ -3,6 +3,10 @@ sample_lib,date,experiment,antibody,concentration,selection,cells_sorted,counts 
 "expt_68-73-none-0-reference, lib2",201106,expt_68-73,none,0,reference,,3.11e+07,3.09e+07,,
 "expt_71-S2X259-59-escape, lib1",201106,expt_71,S2X259,59,escape,700753.0,2.31e+06,2.28e+06,3.2980964762191527,3.2591184054866695
 "expt_71-S2X259-59-escape, lib2",201106,expt_71,S2X259,59,escape,600000.0,1.4e+06,1.39e+06,2.3340533333333333,2.3105583333333333
+"expt_130-none-0-reference, lib1",210526,expt_130,none,0,reference,,2.63e+07,2.6e+07,,
+"expt_130-none-0-reference, lib2",210526,expt_130,none,0,reference,,2.65e+07,2.63e+07,,
+"expt_130-S2K146-63-escape, lib1",210526,expt_130,S2K146,63,escape,816032.0,2.21e+06,2.19e+06,2.7129781675228424,2.678685394690404
+"expt_130-S2K146-63-escape, lib2",210526,expt_130,S2K146,63,escape,698156.0,1.75e+06,1.73e+06,2.507157426133987,2.479122144620973
 "expt_135-139-none-0-reference, lib1",211105,expt_135-139,none,0,reference,,5.93e+07,5.87e+07,,
 "expt_135-139-none-0-reference, lib2",211105,expt_135-139,none,0,reference,,5.49e+07,5.44e+07,,
 "expt_140-148-none-0-reference, lib1",211108,expt_140-148,none,0,reference,,6.2e+07,6.14e+07,,

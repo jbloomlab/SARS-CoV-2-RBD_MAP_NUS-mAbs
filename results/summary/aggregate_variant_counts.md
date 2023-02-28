@@ -205,6 +205,70 @@ display(HTML(barcode_runs.to_html(index=False)))
       <td>results/counts/expt_71-S2X259-59-escape_lib2_fates.csv</td>
     </tr>
     <tr>
+      <td>210526</td>
+      <td>expt_130</td>
+      <td>lib1</td>
+      <td>none</td>
+      <td>0</td>
+      <td>ng_per_mL</td>
+      <td>Vir</td>
+      <td>reference</td>
+      <td>expt_130-none-0-reference</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>expt_130-none-0-reference_lib1</td>
+      <td>results/counts/expt_130-none-0-reference_lib1_counts.csv</td>
+      <td>results/counts/expt_130-none-0-reference_lib1_fates.csv</td>
+    </tr>
+    <tr>
+      <td>210526</td>
+      <td>expt_130</td>
+      <td>lib2</td>
+      <td>none</td>
+      <td>0</td>
+      <td>ng_per_mL</td>
+      <td>Vir</td>
+      <td>reference</td>
+      <td>expt_130-none-0-reference</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>expt_130-none-0-reference_lib2</td>
+      <td>results/counts/expt_130-none-0-reference_lib2_counts.csv</td>
+      <td>results/counts/expt_130-none-0-reference_lib2_fates.csv</td>
+    </tr>
+    <tr>
+      <td>210526</td>
+      <td>expt_130</td>
+      <td>lib1</td>
+      <td>S2K146</td>
+      <td>63</td>
+      <td>ng_per_mL</td>
+      <td>Vir</td>
+      <td>escape</td>
+      <td>expt_130-S2K146-63-escape</td>
+      <td>0.071</td>
+      <td>816032.0</td>
+      <td>expt_130-S2K146-63-escape_lib1</td>
+      <td>results/counts/expt_130-S2K146-63-escape_lib1_counts.csv</td>
+      <td>results/counts/expt_130-S2K146-63-escape_lib1_fates.csv</td>
+    </tr>
+    <tr>
+      <td>210526</td>
+      <td>expt_130</td>
+      <td>lib2</td>
+      <td>S2K146</td>
+      <td>63</td>
+      <td>ng_per_mL</td>
+      <td>Vir</td>
+      <td>escape</td>
+      <td>expt_130-S2K146-63-escape</td>
+      <td>0.063</td>
+      <td>698156.0</td>
+      <td>expt_130-S2K146-63-escape_lib2</td>
+      <td>results/counts/expt_130-S2K146-63-escape_lib2_counts.csv</td>
+      <td>results/counts/expt_130-S2K146-63-escape_lib2_fates.csv</td>
+    </tr>
+    <tr>
       <td>211105</td>
       <td>expt_135-139</td>
       <td>lib1</td>
@@ -908,6 +972,40 @@ display(HTML(fates
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <th rowspan="2" valign="top">expt_130-S2K146-63-escape</th>
+      <th>lib1</th>
+      <td>1.7e+04</td>
+      <td>2.4e+05</td>
+      <td>1.1e+05</td>
+      <td>3.3e+04</td>
+      <td>2.2e+06</td>
+    </tr>
+    <tr>
+      <th>lib2</th>
+      <td>1.4e+04</td>
+      <td>1.8e+05</td>
+      <td>8.7e+04</td>
+      <td>2.8e+04</td>
+      <td>1.8e+06</td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">expt_130-none-0-reference</th>
+      <th>lib1</th>
+      <td>2.0e+05</td>
+      <td>2.8e+06</td>
+      <td>1.3e+06</td>
+      <td>4.5e+05</td>
+      <td>2.6e+07</td>
+    </tr>
+    <tr>
+      <th>lib2</th>
+      <td>2.0e+05</td>
+      <td>2.5e+06</td>
+      <td>1.3e+06</td>
+      <td>4.4e+05</td>
+      <td>2.7e+07</td>
+    </tr>
     <tr>
       <th rowspan="2" valign="top">expt_135-139-none-0-reference</th>
       <th>lib1</th>

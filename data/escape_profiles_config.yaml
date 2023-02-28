@@ -48,8 +48,9 @@ Linfa-NUS_antibodies:
     mAb14_256: K23
     mAb6_584: S309
     mAb7_103: CR3022
-    mAb8_2000: 47D11
+    S2K146_63: S2K146
     S2X259_59: S2X259
+    mAb8_2000: 47D11
   plot_auto_identified_sites: default
   add_sites: []
   exclude_sites: []
@@ -68,7 +69,57 @@ Linfa-NUS_antibodies_set1:
     mAb9_154: F5
     mAb6_584: S309
     mAb7_103: CR3022
+    S2K146_63: S2K146
+    S2X259_59: S2X259
+  plot_auto_identified_sites: default
+  add_sites: []
+  exclude_sites: []
+  site_color_scheme: subdomain
+  color_by_dms: true
+  make_supp_data: true
+  analyze_natural_mutations: false
+  
+Linfa-NUS_antibodies_set1_1:
+  conditions:
+    mAb1_139: B5
+    mAb3_234: E11
+  plot_auto_identified_sites: default
+  add_sites: []
+  exclude_sites: []
+  site_color_scheme: subdomain
+  color_by_dms: true
+  make_supp_data: true
+  analyze_natural_mutations: false
+  
+Linfa-NUS_antibodies_set1_2:
+  conditions:
+    mAb2_232: E7
+    mAb4_462: F1
+    mAb9_154: F5
+  plot_auto_identified_sites: default
+  add_sites: []
+  exclude_sites: []
+  site_color_scheme: subdomain
+  color_by_dms: true
+  make_supp_data: true
+  analyze_natural_mutations: false
+  
+Linfa-NUS_antibodies_set1_3:
+  conditions:
+    mAb5_1694: F4
+    mAb6_584: S309
     mAb8_2000: 47D11
+  plot_auto_identified_sites: default
+  add_sites: []
+  exclude_sites: []
+  site_color_scheme: subdomain
+  color_by_dms: true
+  make_supp_data: true
+  analyze_natural_mutations: false
+  
+Linfa-NUS_antibodies_set1_4:
+  conditions:
+    mAb7_103: CR3022
     S2X259_59: S2X259
   plot_auto_identified_sites: default
   add_sites: []

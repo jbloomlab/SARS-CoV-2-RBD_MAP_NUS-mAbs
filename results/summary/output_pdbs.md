@@ -107,54 +107,54 @@ display(HTML(escape_fracs.head().to_html(index=False)))
   </thead>
   <tbody>
     <tr>
-      <td>S2X259_59</td>
+      <td>S2K146_63</td>
       <td>331</td>
-      <td>0.040056</td>
-      <td>0.025230</td>
-      <td>11.40514</td>
-      <td>0.9015</td>
-      <td>0.003512</td>
-      <td>0.027987</td>
+      <td>0.024695</td>
+      <td>0.004261</td>
+      <td>4.6192</td>
+      <td>1.0</td>
+      <td>0.005346</td>
+      <td>0.004261</td>
     </tr>
     <tr>
-      <td>S2X259_59</td>
+      <td>S2K146_63</td>
       <td>332</td>
-      <td>0.023666</td>
-      <td>0.006130</td>
-      <td>11.40514</td>
-      <td>0.9015</td>
-      <td>0.002075</td>
-      <td>0.006800</td>
+      <td>0.024385</td>
+      <td>0.002188</td>
+      <td>4.6192</td>
+      <td>1.0</td>
+      <td>0.005279</td>
+      <td>0.002188</td>
     </tr>
     <tr>
-      <td>S2X259_59</td>
+      <td>S2K146_63</td>
       <td>333</td>
-      <td>0.020050</td>
-      <td>0.004830</td>
-      <td>11.40514</td>
-      <td>0.9015</td>
-      <td>0.001758</td>
-      <td>0.005358</td>
+      <td>0.018730</td>
+      <td>0.001419</td>
+      <td>4.6192</td>
+      <td>1.0</td>
+      <td>0.004055</td>
+      <td>0.001419</td>
     </tr>
     <tr>
-      <td>S2X259_59</td>
+      <td>S2K146_63</td>
       <td>334</td>
-      <td>0.042680</td>
-      <td>0.022070</td>
-      <td>11.40514</td>
-      <td>0.9015</td>
-      <td>0.003742</td>
-      <td>0.024481</td>
+      <td>0.017451</td>
+      <td>0.001390</td>
+      <td>4.6192</td>
+      <td>1.0</td>
+      <td>0.003778</td>
+      <td>0.001390</td>
     </tr>
     <tr>
-      <td>S2X259_59</td>
+      <td>S2K146_63</td>
       <td>335</td>
-      <td>0.018682</td>
-      <td>0.003247</td>
-      <td>11.40514</td>
-      <td>0.9015</td>
-      <td>0.001638</td>
-      <td>0.003602</td>
+      <td>0.022552</td>
+      <td>0.001652</td>
+      <td>4.6192</td>
+      <td>1.0</td>
+      <td>0.004882</td>
+      <td>0.001652</td>
     </tr>
   </tbody>
 </table>
@@ -211,8 +211,13 @@ for name, specs in output_pdbs_config.items():
 
     
     Making PDB mappings for 6m0j to data/pdbs/6M0J.pdb
-    Making mappings for 15 conditions.
+    Making mappings for 16 conditions.
     Mapping to the following chains: E
+      Writing B-factor re-assigned PDBs for S2K146_63 to:
+        results/pdb_outputs/S2K146_63_6m0j_total_escape.pdb
+        results/pdb_outputs/S2K146_63_6m0j_max_escape.pdb
+        results/pdb_outputs/S2K146_63_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/S2K146_63_6m0j_norm_max_escape.pdb
       Writing B-factor re-assigned PDBs for S2X259_59 to:
         results/pdb_outputs/S2X259_59_6m0j_total_escape.pdb
         results/pdb_outputs/S2X259_59_6m0j_max_escape.pdb

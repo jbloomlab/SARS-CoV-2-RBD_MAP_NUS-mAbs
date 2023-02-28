@@ -133,78 +133,78 @@ display(HTML(escape_fracs.head().to_html(index=False)))
   </thead>
   <tbody>
     <tr>
-      <td>S2X259_59</td>
+      <td>S2K146_63</td>
       <td>331</td>
       <td>N</td>
       <td>A</td>
       <td>E</td>
       <td>331</td>
-      <td>0.000317</td>
-      <td>0.000872</td>
-      <td>0.04006</td>
-      <td>0.1086</td>
-      <td>0.002504</td>
-      <td>0.006788</td>
+      <td>0.003569</td>
+      <td>0.000886</td>
+      <td>0.02469</td>
+      <td>0.03138</td>
+      <td>0.001543</td>
+      <td>0.001961</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>S2X259_59</td>
+      <td>S2K146_63</td>
       <td>331</td>
       <td>N</td>
       <td>D</td>
       <td>E</td>
       <td>331</td>
-      <td>0.000000</td>
-      <td>0.001460</td>
-      <td>0.04006</td>
-      <td>0.1086</td>
-      <td>0.002504</td>
-      <td>0.006788</td>
+      <td>0.004261</td>
+      <td>0.014316</td>
+      <td>0.02469</td>
+      <td>0.03138</td>
+      <td>0.001543</td>
+      <td>0.001961</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>S2X259_59</td>
+      <td>S2K146_63</td>
       <td>331</td>
       <td>N</td>
       <td>E</td>
       <td>E</td>
       <td>331</td>
-      <td>0.000062</td>
-      <td>0.000856</td>
-      <td>0.04006</td>
-      <td>0.1086</td>
-      <td>0.002504</td>
-      <td>0.006788</td>
+      <td>0.000997</td>
+      <td>0.001110</td>
+      <td>0.02469</td>
+      <td>0.03138</td>
+      <td>0.001543</td>
+      <td>0.001961</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>S2X259_59</td>
+      <td>S2K146_63</td>
       <td>331</td>
       <td>N</td>
       <td>F</td>
       <td>E</td>
       <td>331</td>
-      <td>0.001883</td>
-      <td>0.000662</td>
-      <td>0.04006</td>
-      <td>0.1086</td>
-      <td>0.002504</td>
-      <td>0.006788</td>
+      <td>0.003033</td>
+      <td>0.000639</td>
+      <td>0.02469</td>
+      <td>0.03138</td>
+      <td>0.001543</td>
+      <td>0.001961</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>S2X259_59</td>
+      <td>S2K146_63</td>
       <td>331</td>
       <td>N</td>
       <td>G</td>
       <td>E</td>
       <td>331</td>
-      <td>0.025230</td>
-      <td>0.084991</td>
-      <td>0.04006</td>
-      <td>0.1086</td>
-      <td>0.002504</td>
-      <td>0.006788</td>
+      <td>0.002034</td>
+      <td>0.000638</td>
+      <td>0.02469</td>
+      <td>0.03138</td>
+      <td>0.001543</td>
+      <td>0.001961</td>
       <td>2</td>
     </tr>
   </tbody>
@@ -659,7 +659,7 @@ with multiprocessing.Pool(ncpus) as pool:
         
 ```
 
-    Drawing 12 profiles using 16 CPUs...
+    Drawing 24 profiles using 16 CPUs...
     
     Plotted profile 1 to:
      results/escape_profiles/Linfa-NUS_antibodies_stackedlogo.pdf
@@ -734,8 +734,8 @@ with multiprocessing.Pool(ncpus) as pool:
 
     
     Plotted profile 7 to:
-     results/escape_profiles/Linfa-NUS_antibodies_set2_stackedlogo.pdf
-     results/escape_profiles/Linfa-NUS_antibodies_set2_stackedlogo.png.
+     results/escape_profiles/Linfa-NUS_antibodies_set1_1_stackedlogo.pdf
+     results/escape_profiles/Linfa-NUS_antibodies_set1_1_stackedlogo.png.
 
 
 
@@ -746,8 +746,8 @@ with multiprocessing.Pool(ncpus) as pool:
 
     
     Plotted profile 8 to:
-     results/escape_profiles/Linfa-NUS_antibodies_set2_color_by_bind_stackedlogo.pdf
-     results/escape_profiles/Linfa-NUS_antibodies_set2_color_by_bind_stackedlogo.png.
+     results/escape_profiles/Linfa-NUS_antibodies_set1_1_color_by_bind_stackedlogo.pdf
+     results/escape_profiles/Linfa-NUS_antibodies_set1_1_color_by_bind_stackedlogo.png.
 
 
 
@@ -758,8 +758,8 @@ with multiprocessing.Pool(ncpus) as pool:
 
     
     Plotted profile 9 to:
-     results/escape_profiles/Linfa-NUS_antibodies_set2_color_by_expr_stackedlogo.pdf
-     results/escape_profiles/Linfa-NUS_antibodies_set2_color_by_expr_stackedlogo.png.
+     results/escape_profiles/Linfa-NUS_antibodies_set1_1_color_by_expr_stackedlogo.pdf
+     results/escape_profiles/Linfa-NUS_antibodies_set1_1_color_by_expr_stackedlogo.png.
 
 
 
@@ -770,8 +770,8 @@ with multiprocessing.Pool(ncpus) as pool:
 
     
     Plotted profile 10 to:
-     results/escape_profiles/Linfa-NUS_antibodies_set3_stackedlogo.pdf
-     results/escape_profiles/Linfa-NUS_antibodies_set3_stackedlogo.png.
+     results/escape_profiles/Linfa-NUS_antibodies_set1_2_stackedlogo.pdf
+     results/escape_profiles/Linfa-NUS_antibodies_set1_2_stackedlogo.png.
 
 
 
@@ -782,8 +782,8 @@ with multiprocessing.Pool(ncpus) as pool:
 
     
     Plotted profile 11 to:
-     results/escape_profiles/Linfa-NUS_antibodies_set3_color_by_bind_stackedlogo.pdf
-     results/escape_profiles/Linfa-NUS_antibodies_set3_color_by_bind_stackedlogo.png.
+     results/escape_profiles/Linfa-NUS_antibodies_set1_2_color_by_bind_stackedlogo.pdf
+     results/escape_profiles/Linfa-NUS_antibodies_set1_2_color_by_bind_stackedlogo.png.
 
 
 
@@ -794,13 +794,157 @@ with multiprocessing.Pool(ncpus) as pool:
 
     
     Plotted profile 12 to:
+     results/escape_profiles/Linfa-NUS_antibodies_set1_2_color_by_expr_stackedlogo.pdf
+     results/escape_profiles/Linfa-NUS_antibodies_set1_2_color_by_expr_stackedlogo.png.
+
+
+
+    
+![png](escape_profiles_files/escape_profiles_26_23.png)
+    
+
+
+    
+    Plotted profile 13 to:
+     results/escape_profiles/Linfa-NUS_antibodies_set1_3_stackedlogo.pdf
+     results/escape_profiles/Linfa-NUS_antibodies_set1_3_stackedlogo.png.
+
+
+
+    
+![png](escape_profiles_files/escape_profiles_26_25.png)
+    
+
+
+    
+    Plotted profile 14 to:
+     results/escape_profiles/Linfa-NUS_antibodies_set1_3_color_by_bind_stackedlogo.pdf
+     results/escape_profiles/Linfa-NUS_antibodies_set1_3_color_by_bind_stackedlogo.png.
+
+
+
+    
+![png](escape_profiles_files/escape_profiles_26_27.png)
+    
+
+
+    
+    Plotted profile 15 to:
+     results/escape_profiles/Linfa-NUS_antibodies_set1_3_color_by_expr_stackedlogo.pdf
+     results/escape_profiles/Linfa-NUS_antibodies_set1_3_color_by_expr_stackedlogo.png.
+
+
+
+    
+![png](escape_profiles_files/escape_profiles_26_29.png)
+    
+
+
+    
+    Plotted profile 16 to:
+     results/escape_profiles/Linfa-NUS_antibodies_set1_4_stackedlogo.pdf
+     results/escape_profiles/Linfa-NUS_antibodies_set1_4_stackedlogo.png.
+
+
+
+    
+![png](escape_profiles_files/escape_profiles_26_31.png)
+    
+
+
+    
+    Plotted profile 17 to:
+     results/escape_profiles/Linfa-NUS_antibodies_set1_4_color_by_bind_stackedlogo.pdf
+     results/escape_profiles/Linfa-NUS_antibodies_set1_4_color_by_bind_stackedlogo.png.
+
+
+
+    
+![png](escape_profiles_files/escape_profiles_26_33.png)
+    
+
+
+    
+    Plotted profile 18 to:
+     results/escape_profiles/Linfa-NUS_antibodies_set1_4_color_by_expr_stackedlogo.pdf
+     results/escape_profiles/Linfa-NUS_antibodies_set1_4_color_by_expr_stackedlogo.png.
+
+
+
+    
+![png](escape_profiles_files/escape_profiles_26_35.png)
+    
+
+
+    
+    Plotted profile 19 to:
+     results/escape_profiles/Linfa-NUS_antibodies_set2_stackedlogo.pdf
+     results/escape_profiles/Linfa-NUS_antibodies_set2_stackedlogo.png.
+
+
+
+    
+![png](escape_profiles_files/escape_profiles_26_37.png)
+    
+
+
+    
+    Plotted profile 20 to:
+     results/escape_profiles/Linfa-NUS_antibodies_set2_color_by_bind_stackedlogo.pdf
+     results/escape_profiles/Linfa-NUS_antibodies_set2_color_by_bind_stackedlogo.png.
+
+
+
+    
+![png](escape_profiles_files/escape_profiles_26_39.png)
+    
+
+
+    
+    Plotted profile 21 to:
+     results/escape_profiles/Linfa-NUS_antibodies_set2_color_by_expr_stackedlogo.pdf
+     results/escape_profiles/Linfa-NUS_antibodies_set2_color_by_expr_stackedlogo.png.
+
+
+
+    
+![png](escape_profiles_files/escape_profiles_26_41.png)
+    
+
+
+    
+    Plotted profile 22 to:
+     results/escape_profiles/Linfa-NUS_antibodies_set3_stackedlogo.pdf
+     results/escape_profiles/Linfa-NUS_antibodies_set3_stackedlogo.png.
+
+
+
+    
+![png](escape_profiles_files/escape_profiles_26_43.png)
+    
+
+
+    
+    Plotted profile 23 to:
+     results/escape_profiles/Linfa-NUS_antibodies_set3_color_by_bind_stackedlogo.pdf
+     results/escape_profiles/Linfa-NUS_antibodies_set3_color_by_bind_stackedlogo.png.
+
+
+
+    
+![png](escape_profiles_files/escape_profiles_26_45.png)
+    
+
+
+    
+    Plotted profile 24 to:
      results/escape_profiles/Linfa-NUS_antibodies_set3_color_by_expr_stackedlogo.pdf
      results/escape_profiles/Linfa-NUS_antibodies_set3_color_by_expr_stackedlogo.png.
 
 
 
     
-![png](escape_profiles_files/escape_profiles_26_23.png)
+![png](escape_profiles_files/escape_profiles_26_47.png)
     
 
 

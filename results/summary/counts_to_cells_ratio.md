@@ -164,15 +164,15 @@ counts_cells.to_csv(config['counts_to_cells_csv'], index=False, float_format='%.
       <td>2.3</td>
     </tr>
     <tr>
-      <td>expt_135-139-none-0-reference, lib1</td>
-      <td>211105</td>
-      <td>expt_135-139</td>
+      <td>expt_130-none-0-reference, lib1</td>
+      <td>210526</td>
+      <td>expt_130</td>
       <td>none</td>
       <td>0</td>
       <td>reference</td>
       <td>&lt;NA&gt;</td>
-      <td>5.9e+07</td>
-      <td>5.9e+07</td>
+      <td>2.6e+07</td>
+      <td>2.6e+07</td>
       <td>&lt;NA&gt;</td>
       <td>&lt;NA&gt;</td>
     </tr>
@@ -308,6 +308,19 @@ display(HTML(
       <td>1.4e+06</td>
       <td>2.3</td>
       <td>2.3</td>
+    </tr>
+    <tr>
+      <td>expt_130-S2K146-63-escape, lib2</td>
+      <td>210526</td>
+      <td>expt_130</td>
+      <td>S2K146</td>
+      <td>63</td>
+      <td>escape</td>
+      <td>7e+05</td>
+      <td>1.8e+06</td>
+      <td>1.7e+06</td>
+      <td>2.5</td>
+      <td>2.5</td>
     </tr>
     <tr>
       <td>expt_140-mAb6-584-escape, lib1</td>

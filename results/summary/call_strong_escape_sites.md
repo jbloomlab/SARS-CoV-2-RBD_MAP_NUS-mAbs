@@ -91,78 +91,78 @@ display(HTML(escape_fracs.head().to_html(index=False)))
   </thead>
   <tbody>
     <tr>
-      <td>S2X259_59</td>
+      <td>S2K146_63</td>
       <td>331</td>
       <td>N</td>
       <td>A</td>
       <td>E</td>
       <td>331</td>
-      <td>0.000317</td>
-      <td>0.000872</td>
-      <td>0.04006</td>
-      <td>0.1086</td>
-      <td>0.002504</td>
-      <td>0.006788</td>
+      <td>0.003569</td>
+      <td>0.000886</td>
+      <td>0.02469</td>
+      <td>0.03138</td>
+      <td>0.001543</td>
+      <td>0.001961</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>S2X259_59</td>
+      <td>S2K146_63</td>
       <td>331</td>
       <td>N</td>
       <td>D</td>
       <td>E</td>
       <td>331</td>
-      <td>0.000000</td>
-      <td>0.001460</td>
-      <td>0.04006</td>
-      <td>0.1086</td>
-      <td>0.002504</td>
-      <td>0.006788</td>
+      <td>0.004261</td>
+      <td>0.014316</td>
+      <td>0.02469</td>
+      <td>0.03138</td>
+      <td>0.001543</td>
+      <td>0.001961</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>S2X259_59</td>
+      <td>S2K146_63</td>
       <td>331</td>
       <td>N</td>
       <td>E</td>
       <td>E</td>
       <td>331</td>
-      <td>0.000062</td>
-      <td>0.000856</td>
-      <td>0.04006</td>
-      <td>0.1086</td>
-      <td>0.002504</td>
-      <td>0.006788</td>
+      <td>0.000997</td>
+      <td>0.001110</td>
+      <td>0.02469</td>
+      <td>0.03138</td>
+      <td>0.001543</td>
+      <td>0.001961</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>S2X259_59</td>
+      <td>S2K146_63</td>
       <td>331</td>
       <td>N</td>
       <td>F</td>
       <td>E</td>
       <td>331</td>
-      <td>0.001883</td>
-      <td>0.000662</td>
-      <td>0.04006</td>
-      <td>0.1086</td>
-      <td>0.002504</td>
-      <td>0.006788</td>
+      <td>0.003033</td>
+      <td>0.000639</td>
+      <td>0.02469</td>
+      <td>0.03138</td>
+      <td>0.001543</td>
+      <td>0.001961</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>S2X259_59</td>
+      <td>S2K146_63</td>
       <td>331</td>
       <td>N</td>
       <td>G</td>
       <td>E</td>
       <td>331</td>
-      <td>0.025230</td>
-      <td>0.084991</td>
-      <td>0.04006</td>
-      <td>0.1086</td>
-      <td>0.002504</td>
-      <td>0.006788</td>
+      <td>0.002034</td>
+      <td>0.000638</td>
+      <td>0.02469</td>
+      <td>0.03138</td>
+      <td>0.001543</td>
+      <td>0.001961</td>
       <td>2</td>
     </tr>
   </tbody>
@@ -341,15 +341,15 @@ strong_sites.to_csv(config['strong_escape_sites'], index=False)
   <tbody>
     <tr>
       <th>default</th>
-      <td>46</td>
+      <td>51</td>
     </tr>
     <tr>
       <th>sensitive</th>
-      <td>57</td>
+      <td>62</td>
     </tr>
     <tr>
       <th>sensitive_max_mut</th>
-      <td>60</td>
+      <td>65</td>
     </tr>
   </tbody>
 </table>
@@ -384,98 +384,98 @@ strong_sites.to_csv(config['strong_escape_sites'], index=False)
   <tbody>
     <tr>
       <th>0</th>
-      <td>S2X259_59</td>
-      <td>378</td>
-      <td>1.8560</td>
-      <td>0.7605</td>
+      <td>S2K146_63</td>
+      <td>475</td>
+      <td>0.6807</td>
+      <td>0.6588</td>
       <td>default</td>
-      <td>0.024990</td>
-      <td>11.410</td>
-      <td>0.24990</td>
+      <td>0.015135</td>
+      <td>4.619</td>
+      <td>0.15135</td>
       <td>True</td>
-      <td>1.1410</td>
+      <td>0.4619</td>
       <td>True</td>
       <td>0</td>
       <td>True</td>
       <td>False</td>
       <td>True</td>
-      <td>4</td>
+      <td>5</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>S2X259_59</td>
-      <td>384</td>
-      <td>1.2920</td>
-      <td>0.6733</td>
+      <td>S2K146_63</td>
+      <td>484</td>
+      <td>0.9972</td>
+      <td>0.5581</td>
       <td>default</td>
-      <td>0.024990</td>
-      <td>11.410</td>
-      <td>0.24990</td>
+      <td>0.015135</td>
+      <td>4.619</td>
+      <td>0.15135</td>
       <td>True</td>
-      <td>1.1410</td>
+      <td>0.4619</td>
       <td>True</td>
       <td>0</td>
       <td>True</td>
       <td>False</td>
       <td>True</td>
-      <td>4</td>
+      <td>5</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>S2X259_59</td>
-      <td>408</td>
-      <td>3.1350</td>
-      <td>0.7280</td>
+      <td>S2K146_63</td>
+      <td>486</td>
+      <td>1.9800</td>
+      <td>1.0000</td>
       <td>default</td>
-      <td>0.024990</td>
-      <td>11.410</td>
-      <td>0.24990</td>
+      <td>0.015135</td>
+      <td>4.619</td>
+      <td>0.15135</td>
       <td>True</td>
-      <td>1.1410</td>
+      <td>0.4619</td>
       <td>True</td>
       <td>0</td>
       <td>True</td>
       <td>False</td>
       <td>True</td>
-      <td>4</td>
+      <td>5</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>S2X259_59</td>
-      <td>504</td>
-      <td>11.4100</td>
-      <td>0.9015</td>
+      <td>S2K146_63</td>
+      <td>487</td>
+      <td>1.8240</td>
+      <td>0.8958</td>
       <td>default</td>
-      <td>0.024990</td>
-      <td>11.410</td>
-      <td>0.24990</td>
+      <td>0.015135</td>
+      <td>4.619</td>
+      <td>0.15135</td>
       <td>True</td>
-      <td>1.1410</td>
+      <td>0.4619</td>
       <td>True</td>
       <td>0</td>
       <td>True</td>
       <td>False</td>
       <td>True</td>
-      <td>4</td>
+      <td>5</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>mAb10_147</td>
-      <td>376</td>
-      <td>0.9369</td>
-      <td>0.6585</td>
+      <td>S2K146_63</td>
+      <td>489</td>
+      <td>4.6190</td>
+      <td>0.9816</td>
       <td>default</td>
-      <td>0.015395</td>
-      <td>7.997</td>
-      <td>0.15395</td>
+      <td>0.015135</td>
+      <td>4.619</td>
+      <td>0.15135</td>
       <td>True</td>
-      <td>0.7997</td>
+      <td>0.4619</td>
       <td>True</td>
       <td>0</td>
       <td>True</td>
       <td>False</td>
       <td>True</td>
-      <td>2</td>
+      <td>5</td>
     </tr>
   </tbody>
 </table>

@@ -70,6 +70,10 @@ print('Making supplementary data for the following condition sets:\n  ' + '\n  '
     Making supplementary data for the following condition sets:
       Linfa-NUS_antibodies
       Linfa-NUS_antibodies_set1
+      Linfa-NUS_antibodies_set1_1
+      Linfa-NUS_antibodies_set1_2
+      Linfa-NUS_antibodies_set1_3
+      Linfa-NUS_antibodies_set1_4
       Linfa-NUS_antibodies_set2
       Linfa-NUS_antibodies_set3
 
@@ -210,12 +214,56 @@ for metric_type, (set_name, condition_set) in itertools.product(['mutation', 'si
 
     Saving plot to results/supp_data/Linfa-NUS_antibodies_set1-mutation-corr.pdf
     
-    Plotting correlations of mutation escape for Linfa-NUS_antibodies_set2
+    Plotting correlations of mutation escape for Linfa-NUS_antibodies_set1_1
 
 
 
     
 ![png](make_supp_data_files/make_supp_data_16_5.png)
+    
+
+
+    Saving plot to results/supp_data/Linfa-NUS_antibodies_set1_1-mutation-corr.pdf
+    
+    Plotting correlations of mutation escape for Linfa-NUS_antibodies_set1_2
+
+
+
+    
+![png](make_supp_data_files/make_supp_data_16_7.png)
+    
+
+
+    Saving plot to results/supp_data/Linfa-NUS_antibodies_set1_2-mutation-corr.pdf
+    
+    Plotting correlations of mutation escape for Linfa-NUS_antibodies_set1_3
+
+
+
+    
+![png](make_supp_data_files/make_supp_data_16_9.png)
+    
+
+
+    Saving plot to results/supp_data/Linfa-NUS_antibodies_set1_3-mutation-corr.pdf
+    
+    Plotting correlations of mutation escape for Linfa-NUS_antibodies_set1_4
+
+
+
+    
+![png](make_supp_data_files/make_supp_data_16_11.png)
+    
+
+
+    Saving plot to results/supp_data/Linfa-NUS_antibodies_set1_4-mutation-corr.pdf
+    
+    Plotting correlations of mutation escape for Linfa-NUS_antibodies_set2
+
+
+
+    
+![png](make_supp_data_files/make_supp_data_16_13.png)
     
 
 
@@ -226,7 +274,7 @@ for metric_type, (set_name, condition_set) in itertools.product(['mutation', 'si
 
 
     
-![png](make_supp_data_files/make_supp_data_16_7.png)
+![png](make_supp_data_files/make_supp_data_16_15.png)
     
 
 
@@ -237,7 +285,7 @@ for metric_type, (set_name, condition_set) in itertools.product(['mutation', 'si
 
 
     
-![png](make_supp_data_files/make_supp_data_16_9.png)
+![png](make_supp_data_files/make_supp_data_16_17.png)
     
 
 
@@ -248,18 +296,62 @@ for metric_type, (set_name, condition_set) in itertools.product(['mutation', 'si
 
 
     
-![png](make_supp_data_files/make_supp_data_16_11.png)
+![png](make_supp_data_files/make_supp_data_16_19.png)
     
 
 
     Saving plot to results/supp_data/Linfa-NUS_antibodies_set1-site-corr.pdf
+    
+    Plotting correlations of site escape for Linfa-NUS_antibodies_set1_1
+
+
+
+    
+![png](make_supp_data_files/make_supp_data_16_21.png)
+    
+
+
+    Saving plot to results/supp_data/Linfa-NUS_antibodies_set1_1-site-corr.pdf
+    
+    Plotting correlations of site escape for Linfa-NUS_antibodies_set1_2
+
+
+
+    
+![png](make_supp_data_files/make_supp_data_16_23.png)
+    
+
+
+    Saving plot to results/supp_data/Linfa-NUS_antibodies_set1_2-site-corr.pdf
+    
+    Plotting correlations of site escape for Linfa-NUS_antibodies_set1_3
+
+
+
+    
+![png](make_supp_data_files/make_supp_data_16_25.png)
+    
+
+
+    Saving plot to results/supp_data/Linfa-NUS_antibodies_set1_3-site-corr.pdf
+    
+    Plotting correlations of site escape for Linfa-NUS_antibodies_set1_4
+
+
+
+    
+![png](make_supp_data_files/make_supp_data_16_27.png)
+    
+
+
+    Saving plot to results/supp_data/Linfa-NUS_antibodies_set1_4-site-corr.pdf
     
     Plotting correlations of site escape for Linfa-NUS_antibodies_set2
 
 
 
     
-![png](make_supp_data_files/make_supp_data_16_13.png)
+![png](make_supp_data_files/make_supp_data_16_29.png)
     
 
 
@@ -270,7 +362,7 @@ for metric_type, (set_name, condition_set) in itertools.product(['mutation', 'si
 
 
     
-![png](make_supp_data_files/make_supp_data_16_15.png)
+![png](make_supp_data_files/make_supp_data_16_31.png)
     
 
 
@@ -320,6 +412,18 @@ for set_name, condition_set in condition_sets.items():
     
     Raw data for Linfa-NUS_antibodies_set1:
     Writing to results/supp_data/Linfa-NUS_antibodies_set1_raw_data.csv
+    
+    Raw data for Linfa-NUS_antibodies_set1_1:
+    Writing to results/supp_data/Linfa-NUS_antibodies_set1_1_raw_data.csv
+    
+    Raw data for Linfa-NUS_antibodies_set1_2:
+    Writing to results/supp_data/Linfa-NUS_antibodies_set1_2_raw_data.csv
+    
+    Raw data for Linfa-NUS_antibodies_set1_3:
+    Writing to results/supp_data/Linfa-NUS_antibodies_set1_3_raw_data.csv
+    
+    Raw data for Linfa-NUS_antibodies_set1_4:
+    Writing to results/supp_data/Linfa-NUS_antibodies_set1_4_raw_data.csv
     
     Raw data for Linfa-NUS_antibodies_set2:
     Writing to results/supp_data/Linfa-NUS_antibodies_set2_raw_data.csv
@@ -395,75 +499,75 @@ display(HTML(dms_view_df.head().to_html(index=False)))
   </thead>
   <tbody>
     <tr>
-      <td>S2X259_59</td>
+      <td>S2K146_63</td>
       <td>1</td>
       <td>331</td>
       <td>N</td>
       <td>A</td>
       <td>331</td>
-      <td>0.000317</td>
-      <td>0.04006</td>
-      <td>0.02523</td>
+      <td>0.003569</td>
+      <td>0.02469</td>
+      <td>0.004261</td>
       <td>#692505</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
     <tr>
-      <td>S2X259_59</td>
+      <td>S2K146_63</td>
       <td>1</td>
       <td>331</td>
       <td>N</td>
       <td>D</td>
       <td>331</td>
-      <td>0.000000</td>
-      <td>0.04006</td>
-      <td>0.02523</td>
+      <td>0.004261</td>
+      <td>0.02469</td>
+      <td>0.004261</td>
       <td>#662505</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
     <tr>
-      <td>S2X259_59</td>
+      <td>S2K146_63</td>
       <td>1</td>
       <td>331</td>
       <td>N</td>
       <td>E</td>
       <td>331</td>
-      <td>0.000062</td>
-      <td>0.04006</td>
-      <td>0.02523</td>
+      <td>0.000997</td>
+      <td>0.02469</td>
+      <td>0.004261</td>
       <td>#662505</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
     <tr>
-      <td>S2X259_59</td>
+      <td>S2K146_63</td>
       <td>1</td>
       <td>331</td>
       <td>N</td>
       <td>F</td>
       <td>331</td>
-      <td>0.001883</td>
-      <td>0.04006</td>
-      <td>0.02523</td>
+      <td>0.003033</td>
+      <td>0.02469</td>
+      <td>0.004261</td>
       <td>#722805</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
     <tr>
-      <td>S2X259_59</td>
+      <td>S2K146_63</td>
       <td>1</td>
       <td>331</td>
       <td>N</td>
       <td>G</td>
       <td>331</td>
-      <td>0.025230</td>
-      <td>0.04006</td>
-      <td>0.02523</td>
+      <td>0.002034</td>
+      <td>0.02469</td>
+      <td>0.004261</td>
       <td>#6a2605</td>
       <td>NaN</td>
       <td>NaN</td>
@@ -510,6 +614,10 @@ for set_name, condition_set in condition_sets.items():
 
     Writing `dms-view` input file for Linfa-NUS_antibodies mapped to PDB 6m0j to results/supp_data/Linfa-NUS_antibodies_6m0j_dms-view_data.csv
     Writing `dms-view` input file for Linfa-NUS_antibodies_set1 mapped to PDB 6m0j to results/supp_data/Linfa-NUS_antibodies_set1_6m0j_dms-view_data.csv
+    Writing `dms-view` input file for Linfa-NUS_antibodies_set1_1 mapped to PDB 6m0j to results/supp_data/Linfa-NUS_antibodies_set1_1_6m0j_dms-view_data.csv
+    Writing `dms-view` input file for Linfa-NUS_antibodies_set1_2 mapped to PDB 6m0j to results/supp_data/Linfa-NUS_antibodies_set1_2_6m0j_dms-view_data.csv
+    Writing `dms-view` input file for Linfa-NUS_antibodies_set1_3 mapped to PDB 6m0j to results/supp_data/Linfa-NUS_antibodies_set1_3_6m0j_dms-view_data.csv
+    Writing `dms-view` input file for Linfa-NUS_antibodies_set1_4 mapped to PDB 6m0j to results/supp_data/Linfa-NUS_antibodies_set1_4_6m0j_dms-view_data.csv
     Writing `dms-view` input file for Linfa-NUS_antibodies_set2 mapped to PDB 6m0j to results/supp_data/Linfa-NUS_antibodies_set2_6m0j_dms-view_data.csv
     Writing `dms-view` input file for Linfa-NUS_antibodies_set3 mapped to PDB 6m0j to results/supp_data/Linfa-NUS_antibodies_set3_6m0j_dms-view_data.csv
 
